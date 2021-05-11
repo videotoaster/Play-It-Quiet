@@ -30,6 +30,6 @@ The two-shade colors follow a format: `color-a` and `color-b`. B colors are dark
 ```css
 background-color: var(--bg-a);
 color: var(--fg-a);
-border: 2px solid red-a;
+border: 2px solid var(--red-a);
 ```
 Two of the three gray colors are `--bg-a` and `--bg-b`. The other one is `--fg-b`. White is `--fg-a`.
