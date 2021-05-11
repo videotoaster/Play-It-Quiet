@@ -1,0 +1,32 @@
+:root {
+  /* Background */
+  --bg-a: #292929;
+  --bg-b: #111111;
+  /* Foreground */
+  --fg-a: #ffffff; 
+  --fg-b: #6e6e6e;
+  /* Red */
+  --red-a: #ff6b61;
+  --red-b: #ee5a50;
+  /* Green */
+  --green-a: #52d962;
+  --green-b: #41c851;
+  /* Blue */
+  --blue-a: #597aff;
+  --blue-b: #4869ee;
+  /* Purple */
+  --purple-a: #d928fc;
+  --purple-b: #c817eb;
+  /* Orange */
+  --orange-a: #ffba70;
+  --orange-b: #eea960;
+  /* Yellow */
+  --yellow-a: #fff891;
+  --yellow-b: #eee780;
+  /* Pink */
+  --pink-a: #ff9cfa;
+  --pink-b: #ee8be9;
+  /* Black */
+  --black-a: #000012;
+  --black-b: #000000;
+}
