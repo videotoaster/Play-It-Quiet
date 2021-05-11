@@ -10,7 +10,7 @@ If anyone else wants to, go right ahead, but I'd rather not support these langua
 ## Play-it-Quiet is importable.
 You can import it to your site by adding this tiny bit of code to your site:
 ```html
-<link rel="stylesheet" href="https://videotoaster.github.io/Play-it-Quiet/piq.css" />
+<link rel="stylesheet" href="https://videotoaster.github.io/Play-It-Quiet/piq.css" />
 ```
 If you'd like to host it on your own, you can do that too.
 
