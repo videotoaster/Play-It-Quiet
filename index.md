@@ -24,12 +24,10 @@ All of the colors you'll need are included.
 
 Two shades of: red, green, blue, purple, orange, yellow, black, three shades of gray, and one shade of white are included.
 
-The two-shade colors follow a format: `color-a` and `color-b`. For instance:
+The two-shade colors follow a format: `color-a` and `color-b`. B colors are darker than A colors. For instance:
 ```css
 background-color: var(--bg-a);
-color: white;
+color: var(--fg-a);
 border: 2px solid red-a;
 ```
-B colors are darker than A colors.
-
-Two of the three gray colors are `bg` and they do not follow the a/b format. It is --bg and --dbg.
+Two of the three gray colors are `--bg-a` and `--bg-b`. The other one is `--fg-b`. White is `--fg-a`.
