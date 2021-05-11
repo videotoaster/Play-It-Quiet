@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Play-it-Quiet is a CSS color scheme.
+Play-it-Quiet on its own does nothing. It simply sets several variables for you to reference in your code.
 
-You can use the [editor on GitHub](https://github.com/videotoaster/Play-It-Quiet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Play-it-Quiet provides no looks.
+All Play-it-Quiet does is provide colors. You'll still have to manually apply the colors and themes to elements.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Play-it-Quiet *will not* support SASS or Less.
+If anyone else wants to, go right ahead, but I'd rather not support these languages as they hurt my ape brain.
 
-### Markdown
+## Play-it-Quiet is importable.
+You can import it to your site by adding this tiny bit of code to your site:
+`<link rel="stylesheet" href="https://videotoaster.github.io/Play-it-Quiet/piq.css" />`
+If you'd like to host it on your own, you can do that too.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Play-it-Quiet is a WIP!
+I'm still playing around with stuff and I plan to make a few things out of it:
 
-```markdown
-Syntax highlighted code block
+* A [new.css](https://newcss.net) theme
+* A CSS template for Play-it-Quiet
+* ...more?
 
-# Header 1
-## Header 2
-### Header 3
+## Play-it-Quiet is dead-simple.
+All of the colors you'll need are included.
 
-- Bulleted
-- List
+Two shades of: red, green, blue, purple, orange, yellow, black, three shades of gray, and one shade of white are included.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+The two-shade colors follow a format: `color-a` and `color-b`. For instance:
+```css
+background-color: var(--bg-a);
+color: white;
+border: 2px solid red-a;
 ```
+B colors are darker than A colors.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/videotoaster/Play-It-Quiet/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Two of the three gray colors are `bg` and they do not follow the a/b format. It is --bg and --dbg.
